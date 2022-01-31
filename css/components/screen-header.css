@@ -1,0 +1,27 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__icons span:last-child {
+  position: relative;
+}
+.screen-header__icons span:last-child .badge--xs {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: -6px;
+  left: -3px;
+}
