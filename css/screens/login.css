@@ -44,13 +44,13 @@
 #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
-  padding: 20px 0px;
+  padding: 20px 10px;
   border-radius: 5px;
 }
 
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: inherit;
+  color: black;
   font-size: 13px;
 }

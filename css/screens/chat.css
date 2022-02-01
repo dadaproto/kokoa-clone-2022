@@ -23,3 +23,9 @@
 .main-chat {
   margin-top: 150px;
 }
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 5px;
+}

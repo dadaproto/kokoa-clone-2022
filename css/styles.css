@@ -42,3 +42,8 @@ body {
   overflow-y: scroll;
   height: 100%;
 }
+
+.main-screen::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
