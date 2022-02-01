@@ -4,6 +4,13 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  position: sticky;
+  box-sizing: border-box;
+  width: 100%;
+  top: 25px;
+  background-color: white;
+  box-shadow: 0 -30px 30px 30px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 .screen-header__title {
