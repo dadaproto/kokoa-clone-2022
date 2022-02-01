@@ -10,13 +10,38 @@
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
+  width: 22px;
 }
 
-.setting__setting-column:last-child {
-  opacity: 0.5;
+.settings__setting-column:last-child {
+  color: #a0a0a0;
+  font-size: 18px;
 }
 
-/* .settings-setting__second-list {
+.first-list .settings-setting:last-child {
+  border-bottom: none;
+}
+
+.second-list .settings__setting-column {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+}
+.second-list .settings__setting-column i {
+  width: 30px;
+}
+
+.settings__divider {
+  width: 100vw;
+  border-bottom: 1px solid var(--grey);
+  margin: 25px -25px;
+}
+
+/* .settings-screen {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.settings-screen::-webkit-scrollbar {
+  padding: 0;
+  width: 0;
+  background-color: transparent;
 } */
