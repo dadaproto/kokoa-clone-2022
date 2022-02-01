@@ -46,11 +46,12 @@
   cursor: pointer;
   padding: 20px 10px;
   border-radius: 5px;
+  color: black;
 }
 
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: inherit;
   font-size: 13px;
 }
