@@ -22,14 +22,14 @@
 
 .badge--sm {
   background-color: tomato;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 8px;
 }
