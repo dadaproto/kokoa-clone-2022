@@ -1,5 +1,5 @@
 .nav {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   min-width: 390px;
