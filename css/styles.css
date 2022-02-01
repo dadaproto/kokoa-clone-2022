@@ -28,12 +28,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-@media screen and (max-width: 645px) {
-  body {
-    min-width: 390px;
-  }
-}
-
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
