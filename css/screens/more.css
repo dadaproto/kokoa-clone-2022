@@ -8,7 +8,10 @@
   color: tomato;
 }
 
-.more-screen .icon-row {
+.more-screen .icon-row:nth-child(2) {
+  margin-top: 55px;
+}
+.more-screen .icon-row:nth-child(3) {
   margin-top: 35px;
 }
 
