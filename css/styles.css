@@ -43,7 +43,7 @@ body {
   height: 100%; */
 }
 
-.main-screen::-webkit-scrollbar {
+/* * ::-webkit-scrollbar {
   width: 0;
   background-color: transparent;
-}
+} */
