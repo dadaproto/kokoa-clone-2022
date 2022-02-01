@@ -1,0 +1,39 @@
+#only-portrait {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 100;
+  font-size: 24px;
+}
+
+@keyframes mobileIconRotate {
+  0% {
+    transform: rotateZ(-90deg);
+  }
+  40% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+#only-portrait .fa-mobile-alt {
+  font-size: 100px;
+  margin: 50px 0px;
+  transform: rotateZ(-90deg);
+  animation: mobileIconRotate 3s linear infinite;
+  animation-delay: 0.5;
+}
+
+@media screen and (orientation: portrait) {
+  #only-portrait {
+    display: none;
+  }
+}
