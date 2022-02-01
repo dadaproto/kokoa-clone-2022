@@ -7,9 +7,9 @@
   position: sticky;
   box-sizing: border-box;
   width: 100%;
-  top: 25px;
+  top: 20px;
   background-color: white;
-  box-shadow: 0 -30px 30px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
