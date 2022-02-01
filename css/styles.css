@@ -12,6 +12,7 @@
 @import "components/icon-row.css";
 @import "components/badge.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -26,24 +27,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* @media screen and (max-width: 390px) {
+@media screen and (max-width: 645px) {
   body {
-    width: 100%;
+    min-width: 390px;
   }
 }
-@media screen and (min-width: 391px) {
-  body {
-    width: 391px;
-  }
-} */
 
 .main-screen {
   padding: 0px var(--horizontal-space);
-  /* overflow-y: scroll;
-  height: 100%; */
 }
-
-/* * ::-webkit-scrollbar {
-  width: 0;
-  background-color: transparent;
-} */

@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  min-width: 390px;
   box-sizing: border-box;
   background-color: #f9f9f9;
   padding: 20px 40px;
