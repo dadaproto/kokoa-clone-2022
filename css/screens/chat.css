@@ -3,19 +3,6 @@
   height: 500vh;
 }
 
-@keyframes slideLeftAnimation {
-  from {
-    transform: translateY(1vh);
-  }
-  to {
-    transform: none;
-  }
-}
-
-/* #chat-screen .main-chat {
-  animation: slideLeftAnimation 1s ease-in-out;
-} */
-
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   top: 0;
