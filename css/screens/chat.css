@@ -52,7 +52,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
-  transition: all 0.5s linear;
+  /* transition: all 0.5s linear; */
 }
 
 .message-row img {
@@ -65,22 +65,22 @@
 @keyframes fadeInOwn {
   from {
     transform: translateX(10px);
-    opacity: 0;
+    /* opacity: 0; */
   }
   to {
     transform: none;
-    opacity: 1;
+    /* opacity: 1; */
   }
 }
 
 .message-row--own {
   justify-content: flex-end;
   animation: fadeInOwn 0.5s linear;
-  animation-delay: 0.1s;
 }
 
 @keyframes fadeInFriend {
   from {
+    /* transform: translateX(-10px); */
     opacity: 0;
   }
   to {
@@ -91,13 +91,13 @@
 
 .message-row--friend {
   will-change: transform;
-  transform: translateX(-10px);
+  transform-origin: translateX(-10px);
   animation: fadeInFriend 0.5s linear forwards;
-  animation-delay: none;
 }
 
 .message-row--friend:last-child {
   transform: translateX(-300px);
+  -webkit-transform: translateX(-300px);
   animation-delay: 1s;
 }
 
