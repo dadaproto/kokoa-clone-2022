@@ -48,6 +48,8 @@
   border-radius: 5px;
   color: black;
   box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
 }
 
 #login-form a {
