@@ -11,8 +11,9 @@
   font-weight: 600;
 }
 .welcome-header__text {
-  width: 60%;
+  width: 80%;
   opacity: 0.5;
+  line-height: 18px;
 }
 
 #login-form {
