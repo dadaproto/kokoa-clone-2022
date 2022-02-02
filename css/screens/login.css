@@ -47,6 +47,7 @@
   padding: 20px 10px;
   border-radius: 5px;
   color: black;
+  box-sizing: border-box;
 }
 
 #login-form a {
