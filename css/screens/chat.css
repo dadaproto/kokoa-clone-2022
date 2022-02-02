@@ -52,7 +52,6 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
-  transition: transform 0.5s, opacity 0.5s;
 }
 
 .message-row img {
@@ -98,6 +97,7 @@
 .message-row--friend:last-child {
   will-change: transform;
   transform: translateX(-300px);
+  transition: transform 0.5s linear;
   animation-delay: 1s;
 }
 

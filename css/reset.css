@@ -130,7 +130,7 @@ table {
 
 input {
   /* appearance: none; */
-  border-radius: unset;
+  all: unset;
 }
 
 input:focus {
