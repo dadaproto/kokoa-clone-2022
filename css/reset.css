@@ -129,7 +129,8 @@ table {
 }
 
 input {
-  border-radius: 0;
+  /* appearance: none; */
+  border-radius: unset;
 }
 
 input:focus {
