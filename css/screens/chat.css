@@ -52,7 +52,6 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
-  /* transition: all 0.5s linear; */
 }
 
 .message-row img {
@@ -65,11 +64,11 @@
 @keyframes fadeInOwn {
   from {
     transform: translateX(10px);
-    /* opacity: 0; */
+    opacity: 0;
   }
   to {
     transform: none;
-    /* opacity: 1; */
+    opacity: 1;
   }
 }
 
@@ -93,11 +92,16 @@
   will-change: transform;
   transform-origin: translateX(-10px);
   animation: fadeInFriend 0.5s linear forwards;
+  /* animation-delay: 0.5s; */
 }
 
 .message-row--friend:last-child {
   transform: translateX(-300px);
-  -webkit-transform: translateX(-300px);
+  animation-delay: 1s;
+}
+
+.message-row--friend:only-child {
+  transform: translateX(-300px);
   animation-delay: 1s;
 }
 
@@ -194,6 +198,7 @@
 
 .reply__column button i {
   opacity: 1;
+  color: black;
 }
 .reply__column button button:focus,
 .reply__column button button:active {
