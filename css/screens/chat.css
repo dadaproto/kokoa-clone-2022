@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 50vh;
 }
 
 #chat-screen .alt-header,
@@ -175,7 +175,7 @@
 .reply__column:last-child button {
   position: absolute;
   right: 3px;
-  top: 3px;
+  top: 5px;
 }
 
 .reply__column:last-child i {
